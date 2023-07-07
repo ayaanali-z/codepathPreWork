@@ -4,7 +4,7 @@ PreWork for 2023 iOS Development Course on CodePath
 Some ideas to improve the App are:
 - Improve the UI by using different fonts/colors/background
 - Feel free to play around with other elements, such as image views, textfields, etc.
-- Iplement a way to change the color of the text as well
+- Implement a way to change the color of the text as well
 
 # App Brainstorming 
 
