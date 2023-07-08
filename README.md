@@ -8,7 +8,7 @@ Some ideas to improve the App are:
 
 # PreWork Demo 
 
-![Alt Text](path/to/your/demo.gif)
+![Alt Text](path/to/your/demo-min.gif)
 
 # App Brainstorming 
 
