@@ -1,4 +1,4 @@
-# codepathPreWork
+# codepathPreWork - RGB-Button-Masher
 PreWork for 2023 iOS Development Course on CodePath
 
 Some ideas to improve the App are:
@@ -6,16 +6,20 @@ Some ideas to improve the App are:
 - Feel free to play around with other elements, such as image views, textfields, etc.
 - Implement a way to change the color of the text as well
 
-# Additional Improvements: 
+# Additional Improvements 
 - Added different fonts to each label
 - Added a randomize text button which randomizes the text colors. 
 - Added a randomize font method which assigns the fonts of each label to a random font from an array called fonts.
 - Added a reset button that returns all colors and fonts back to the defaults.
 
-# Checklist:
+# Checklist
 
 - [x] User can run application showing a screen with a button and at least a couple of labels. 
 - [x] The screen has a background color that can changes when the button is tapped.
+
+# App Demo 
+
+![preworkDEMO](https://github.com/ayaanali-z/codepathPreWork/assets/114616808/d49cc8af-55ed-4375-b4e7-c905e3153c5e)
 
 # App Brainstorming 
 
