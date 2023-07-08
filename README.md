@@ -6,7 +6,7 @@ Some ideas to improve the App are:
 - Feel free to play around with other elements, such as image views, textfields, etc.
 - Implement a way to change the color of the text as well
 
-![](https://github.com/codepathPreWork/Simulator Screen Recording - iPhone 14 Pro - 2023-07-08 at 00.24.05.gif)
+![](https://github.com/codepathPreWork/demo.gif)
 
 
 # PreWork Demo 
