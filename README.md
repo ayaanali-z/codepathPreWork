@@ -6,10 +6,10 @@ Some ideas to improve the App are:
 - Feel free to play around with other elements, such as image views, textfields, etc.
 - Implement a way to change the color of the text as well
 
+# PreWork Demo 
+
 ![](https://github.com/codepathPreWork/demo.gif)
 
-
-# PreWork Demo 
 # App Brainstorming 
 
 Letterboxd: 
