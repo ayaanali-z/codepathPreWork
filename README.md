@@ -4,7 +4,18 @@ PreWork for 2023 iOS Development Course on CodePath
 Some ideas to improve the App are:
 - Improve the UI by using different fonts/colors/background
 - Feel free to play around with other elements, such as image views, textfields, etc.
-- Iplement a way to change the color of the text as well
+- Implement a way to change the color of the text as well
+
+# Additional Improvements: 
+- Added different fonts to each label
+- Added a randomize text button which randomizes the text colors. 
+- Added a randomize font method which assigns the fonts of each label to a random font from an array called fonts.
+- Added a reset button that returns all colors and fonts back to the defaults.
+
+# Checklist:
+
+[x] User can run application showing a screen with a button and at least a couple of labels. 
+[x] The screen has a background color that can changes when the button is tapped.
 
 # App Brainstorming 
 
@@ -26,4 +37,7 @@ Apple News+:
 Spotify: 
 - A music-listening app that's both free and subcription based. 
 - New music exposure: Spotify's most attractive feature in my opinion is the Daily Mixes and curated playlists it compiles based on your listening history. 
-- AI-powered DJ: A newer feature of Spotify is an AI-powered DJ that uses your listening history to generate a radio-like experience. I use this a lot as I have a rapidly evolving music taste and my manually created playlists often run stale after a while. I think this is a really interesting incorporation of AI/ML development into an already well-renowned feature of the app. 
+- AI-powered DJ: A newer feature of Spotify is an AI-powered DJ that uses your listening history to generate a radio-like experience. I use this a lot as I have a rapidly evolving music taste and my manually created playlists often run stale after a while. I think this is a really interesting incorporation of AI/ML development into an already well-renowned feature of the app.
+
+# App Idea 
+- I have an idea for creating an app called Goggleboxd (gogglebox is british slang for a television) similar to Letterboxd that combines entertainment with microblogging. Letterboxd's biggest hinderence is that it does not have any TV show database. TV shows are statistically more popular than movies. In fact, 75% of all [user viewing on Netflix](https://www.bloomberg.com/news/newsletters/2022-03-13/these-are-netflix-s-most-popular-shows-according-to-netflix) is comprised of TV shows. My idea for an app is a microblogging space where users can rank their favorite TV shows on their profiles, review particular episodes based on a star system, create themed lists of both episodes and shows, discover which streaming platforms a show is available on, and follow and comment on each others profiles and reviews. This app can either serve as an extension of Letterboxd or a sister app in which a user's Letterboxd username and password serve as the basis for their account on Goggleboxd (in a similar fashion to how Meta imported Instagram usernames to their new app Threads).
