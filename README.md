@@ -21,6 +21,10 @@ Some ideas to improve the App are:
 
 ![preworkDEMO](https://github.com/ayaanali-z/codepathPreWork/assets/114616808/d49cc8af-55ed-4375-b4e7-c905e3153c5e)
 
+# Notes on Debugging
+
+- Coding the randomize background button and adding the labels were pretty straightforward tasks. I had to google how to instantiate an array in Swift and then also consult CodePath's guide on Swift to learn a bit about control flow for the randomize fonts method. I also ran into this issue of the randomTextColor method resulting in the background color changing too. It took me about 30 minutes to realize that I had assigned the buttons incorrectly to resolve the issue. I also ran into the issue of font size. In some instances when the randomize font button was pressed, the first label (my name) would end up reducing to standard 17.0 font. I remedied this by creating another variable called defaultFontSize which was a floating point value of the initial font of the first label. All in all, I found this exploration of the xCode UI and brief introduction to Swift to be invigorating and it only made me more interested in pursuing the full course. 
+
 # App Brainstorming 
 
 Letterboxd: 
