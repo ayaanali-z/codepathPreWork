@@ -8,7 +8,8 @@ Some ideas to improve the App are:
 
 # PreWork Demo 
 
-![Alt Text](path/to/your/demo-min.gif)
+![demo-min](https://github.com/ayaanali-z/codepathPreWork/assets/114616808/2d36d8bf-f664-40b0-a212-64f48fc64e26)
+
 
 # App Brainstorming 
 
