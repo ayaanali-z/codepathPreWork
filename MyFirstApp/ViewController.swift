@@ -29,35 +29,44 @@ class ViewController: UIViewController {
     }
 
     
-    @IBAction func randomizeTextColor(_ sender: UIButton) {
-        
-        let labelColorOne = changeColor()
-        let labelColorTwo = changeColor()
-        let labelColorThree = changeColor()
-        label1.textColor = labelColorOne
-        label2.textColor = labelColorTwo
-        label3.textColor = labelColorThree
-        
-        
-    }
-    
     @IBAction func changeBackgroundColor(_ sender: UIButton) {
         let randomColor = changeColor()
         view.backgroundColor = randomColor;
         
     }
-    
-    @IBAction func reset(_ sender: UIButton) {
-        
-        label1.textColor = defaultTextColor
-        label2.textColor = defaultTextColor
-        label3.textColor = defaultTextColor
 
-        label1.font = UIFont(name: defaultTitle, size:defaultFontSize)
-        label2.font = UIFont(name: defaultFont, size:defaultFontSize2)
-        label3.font = UIFont(name: defaultFont, size:defaultFontSize3)
+    
+    func changeColor() -> UIColor{
+
+        let red = CGFloat.random(in: 0...1)
+        let green = CGFloat.random(in: 0...1)
+        let blue = CGFloat.random(in: 0...1)
+
+        return UIColor(red: red, green: green, blue: blue, alpha: 0.5)
         
-        view.backgroundColor = defaultBackgroundColor
+    }
+    
+    @IBAction func randomTextColor(_ sender: UIButton) {
+        
+        let labelColorOne = changeColor()
+        let labelColorTwo = changeColor()
+        let labelColorThree = changeColor()
+        
+        label1.textColor = labelColorOne
+        label2.textColor = labelColorTwo
+        label3.textColor = labelColorThree
+    }
+    @IBAction func switchTextColor(_ sender: UIButton) {
+        
+            
+            let labelColorOne = changeColor()
+            let labelColorTwo = changeColor()
+            let labelColorThree = changeColor()
+            
+            label1.textColor = labelColorOne
+            label2.textColor = labelColorTwo
+            label3.textColor = labelColorThree
+            
     }
     
     @IBAction func randomizeFont(_ sender: UIButton) {
@@ -98,17 +107,19 @@ class ViewController: UIViewController {
         }
         
     }
-    
-    func changeColor() -> UIColor{
 
-        let red = CGFloat.random(in: 0...1)
-        let green = CGFloat.random(in: 0...1)
-        let blue = CGFloat.random(in: 0...1)
-
-        return UIColor(red: red, green: green, blue: blue, alpha: 0.5)
+    @IBAction func reset(_ sender: UIButton) {
         
+        label1.textColor = defaultTextColor
+        label2.textColor = defaultTextColor
+        label3.textColor = defaultTextColor
+
+        label1.font = UIFont(name: defaultTitle, size:defaultFontSize)
+        label2.font = UIFont(name: defaultFont, size:defaultFontSize2)
+        label3.font = UIFont(name: defaultFont, size:defaultFontSize3)
+        
+        view.backgroundColor = defaultBackgroundColor
     }
     
-
 }
 
