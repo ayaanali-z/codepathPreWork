@@ -6,6 +6,12 @@ Some ideas to improve the App are:
 - Feel free to play around with other elements, such as image views, textfields, etc.
 - Implement a way to change the color of the text as well
 
+# Add-Ons 
+- I added different fonts to each label
+- I added a Randomize Theme button which randomizes both the background and text colors at the same time.
+- I added a randomize font method which assigns the fonts of each label to a random font from an array called fonts.
+- I added a reset button that returns all colors and fonts back to the defaults. 
+
 # PreWork Demo 
 
 ![demo-min](https://github.com/ayaanali-z/codepathPreWork/assets/114616808/2d36d8bf-f664-40b0-a212-64f48fc64e26)
