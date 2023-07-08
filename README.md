@@ -8,7 +8,7 @@ Some ideas to improve the App are:
 
 # PreWork Demo 
 
-![](https://github.com/codepathPreWork/demo.gif)
+![Alt Text](path/to/your/demo.gif)
 
 # App Brainstorming 
 
