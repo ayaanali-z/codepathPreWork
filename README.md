@@ -14,8 +14,8 @@ Some ideas to improve the App are:
 
 # Checklist:
 
-[x] User can run application showing a screen with a button and at least a couple of labels. 
-[x] The screen has a background color that can changes when the button is tapped.
+- [x] User can run application showing a screen with a button and at least a couple of labels. 
+- [x] The screen has a background color that can changes when the button is tapped.
 
 # App Brainstorming 
 
